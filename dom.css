@@ -1,0 +1,86 @@
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+ background-color: rgb(255, 0, 98);
+}
+.shopping-bag-total {
+
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: 500;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .shadow {
+    -moz-box-shadow:    3px 3px 5px 6px rgba(204, 204, 204, 0);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(105, 0, 26, 0.425);
+    box-shadow:         3px 3px 5px 6px rgba(153, 0, 26, 0.473);
+    
+  }
+  .product-container {
+    margin: 40px 100px;
+    background: rgb(255, 249, 250);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-radius: 25px;
+  }
+  .row {
+    margin: 0;
+    padding: 20px 0;
+    border-top: solid rgb(255, 0, 106);
+    border-top-width:bold;
+  }
+  .delete-like {
+    text-align: center;
+  }
+  .image-produit {
+    width: 287px;
+    height: 390px;
+    align-content: center;
+  }
+  .product-name {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .btn-delete,
+  .btn-like,
+  .btn-plus,
+  .btn-moins {
+    border: none;
+    background: none;
+    outline: 0;
+    
+  }
+  
+  .btn-delete:focus,
+  .btn-like:focus,
+  .btn-plus:focus,
+  .btn-moins:focus {
+    outline: 0;
+   
+  }
+  
+  .product-qnt {
+    text-align: center;
+  }
+  .product-price {
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+  }
+  .like {
+    fill: black;
+    height: 25px;
+    width: 25px;
+  }
+  
+  .col{
+    border-style: 1px outset gray ;
+  }
+
+  
+  .fa-heart{
+    color: gray;
+  }
